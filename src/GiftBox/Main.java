@@ -17,5 +17,6 @@ public class Main {
         System.out.println("Общий вес: " + totalWeight);
         System.out.println("Общая цена "+ totalPrice);
 
+
     }
 }
