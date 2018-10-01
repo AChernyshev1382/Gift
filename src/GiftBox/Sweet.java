@@ -5,11 +5,18 @@ public class Sweet {
     String name;
     double price;
     double weight;
+    Integer count;
 
-    public Sweet(String name, double price, double weight) {
+    public Sweet(String name, double price, double weight, Integer count) {
         this.name = name;
         this.price = price;
         this.weight = weight;
+        this.count = count;
+
+    }
+
+    public Integer getCount() {
+        return count;
     }
 
     public String getName() {
@@ -24,6 +31,9 @@ public class Sweet {
         return weight;
     }
 
+    public void setCount(Integer count) {
+        this.count = count;
+    }
 
     public void setName(String name) {
         this.name = name;
@@ -40,6 +50,6 @@ public class Sweet {
     @Override
     public String toString() {
         String uniq;
-        return this.name + " " + "Цена: " + this.price + " " + "Вес: " + this.weight;
+        return this.name + " " + this.count + " " + "Цена: " + this.price + " " + "Вес: " + this.weight;
     }
 }
