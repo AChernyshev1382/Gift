@@ -1,23 +1,41 @@
 package GiftBox;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
-        Sweet[] present = {new Lollipop("Леденец", 1.3, 2),
-                new Caramel("Карамель", 3.7,5), new Marmalade("Мармелад", 2.2, 15)};
+        Scanner scanner = new Scanner(System.in);
+
+
+        String lollipopName;
+        String caramelNeme;
+        String marmeladeName;
+        System.out.println("Введите наименование сладости");
+        lollipopName = scanner.next();
+        caramelNeme = scanner.next();
+        marmeladeName = scanner.next();
+
+
+
+        Sweet[] present = {new Lollipop(lollipopName , 1.3, 2),
+                new Caramel(caramelNeme, 3.7,5, " "), new Marmalade(marmeladeName, 2.2, 15)};
 
         int totalWeight = 0;
         double totalPrice = 0;
-        String nn;
+        //String nn;
 
         System.out.println("НОВОГОДНИЙ ПОДАРОК:");
-        for (double i = 0; i < present.length; i++ ){
-            System.out.println(present[(int) i].getName() +" Вес:" + present[(int) i].getWeight() + "." + " Цена:" + present[(int) i].getPrice());
-            totalWeight = (int) (totalWeight+present[(int) i].getWeight());
-            totalPrice = (double) (totalPrice+present[(int) i].getPrice());
+        for (int i = 0; i < present.length; i++ ){
+
+            System.out.println(present[i].toString());
+            totalWeight = (int) (totalWeight+present[i].getWeight());
+            totalPrice = totalPrice+present[i].getPrice();
+
         }
+
         System.out.println("Общий вес: " + totalWeight);
-        System.out.println("Общая цена "+ totalPrice);
+        System.out.println("Общая цена " + totalPrice);
 
 
     }

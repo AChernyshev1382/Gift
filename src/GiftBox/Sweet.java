@@ -36,4 +36,9 @@ public class Sweet {
     public void setWeight(double weight) {
         this.weight = weight;
     }
+
+    @Override
+    public String toString() {
+        return this.name +" " + "Цена: " + this.price + " " + "Вес: " + this.weight;
+    }
 }
