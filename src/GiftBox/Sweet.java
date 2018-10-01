@@ -39,6 +39,7 @@ public class Sweet {
 
     @Override
     public String toString() {
-        return this.name +" " + "Цена: " + this.price + " " + "Вес: " + this.weight;
+        String uniq;
+        return this.name + " " + "Цена: " + this.price + " " + "Вес: " + this.weight;
     }
 }

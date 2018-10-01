@@ -19,11 +19,11 @@ public class Main {
 
 
         Sweet[] present = {new Lollipop(lollipopName , 1.3, 2),
-                new Caramel(caramelNeme, 3.7,5, " "), new Marmalade(marmeladeName, 2.2, 15)};
+                new Caramel(caramelNeme, 3.7,5), new Marmalade(marmeladeName, 2.2, 15)};
 
         int totalWeight = 0;
         double totalPrice = 0;
-        //String nn;
+
 
         System.out.println("НОВОГОДНИЙ ПОДАРОК:");
         for (int i = 0; i < present.length; i++ ){
