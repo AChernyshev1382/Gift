@@ -9,6 +9,8 @@ public class Main {
         int totalWeight = 0;
         double totalPrice = 0;
         String nn;
+
+        System.out.println("НОВОГОДНИЙ ПОДАРОК:");
         for (double i = 0; i < present.length; i++ ){
             System.out.println(present[(int) i].getName() +" Вес:" + present[(int) i].getWeight() + "." + " Цена:" + present[(int) i].getPrice());
             totalWeight = (int) (totalWeight+present[(int) i].getWeight());
