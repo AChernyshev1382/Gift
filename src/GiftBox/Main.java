@@ -1,7 +1,5 @@
 package GiftBox;
 
-import org.omg.CORBA.DynAnyPackage.Invalid;
-
 import java.util.*;
 
 
@@ -13,39 +11,12 @@ public class Main {
 
 
 
-        String lollipopName = null;
-
-
-
-        String caramelNeme;
-        String marmeladeName;
-
-        Integer countCaramel;
-        Integer countMarmelade;
-
-
-        Double caremelPrice;
-        Double marmeladePrice;
-
-
-
-
-
         System.out.println("Введите наименование сладости");
 
 
         System.out.println( "Первая сладость:" );
 
-        try{
-        lollipopName = scanner.next();
-
-        }catch (Exception e){
-
-            if (!lollipopName.equals( "Леденец" )) {
-                    System.out.println("wqerqwerqwer");
-           }
-        }
-
+        String lollipopName = scanner.next();
         System.out.println( "Количество:" );
         Integer countLollipop = scanner.nextInt();
         System.out.println( "Укажите цену:" );
@@ -56,42 +27,50 @@ public class Main {
 
 
 
-//        }catch (Throwable throwable){
+
+        System.out.println("Вторая сладость:");
+        String caramelNeme = scanner.next();
+        System.out.println("Количество:");
+        Integer countCaramel = scanner.nextInt();
+        System.out.println( "Укажите цену:" );
+        Double caremelPrice = scanner.nextDouble();
+        System.out.println( "Укажаите вес:" );
+        Double caremelWeight = scanner.nextDouble();
+
+
+
+
+        System.out.println("Третья сладость:");
+        String marmeladeName = scanner.next();
+        System.out.println("Количество:");
+        Integer countMarmelade = scanner.nextInt();
+        System.out.println( "Укажите цену:" );
+        Double marmeladePrice = scanner.nextDouble();
+        System.out.println( "Укажаите вес:" );
+        Double marmeladeWeight = scanner.nextDouble();
+
+
+//        Map <String, Integer> sweets = new TreeMap<>();
+//        sweets.put(lollipopName, countCaramel);
+//        System.out.println(sweets.values());
 //
-//            String lol = lollipopName;;
-//            if (lol.equals( "Леденец" )){
-//                if (false)
-//                    System.out.println("Error");
-//            }
-//        }
-
-
-//
-//        System.out.println("Вторая сладость:");
-//        caramelNeme = scanner.next();
-//        System.out.println("Количество:");
-//        countCaramel = scanner.nextInt();
-//
-//        System.out.println("Третья сладость:");
-//        marmeladeName = scanner.next();
-//        System.out.println("Количество:");
-//        countMarmelade = scanner.nextInt();
-
-
-        Map <String, Integer> sweets = new TreeMap<>();
-        sweets.put(lollipopName, countLollipop);
-//        sweets.put(caramelNeme, countCaramel);
-//        sweets.put(marmeladeName, countMarmelade);
-        System.out.println(sweets.values());
+//        lollipopName = new Lollipop();
 
 
 
 
-        Sweet[] present = {new Lollipop(lollipopName, countLollipop, lollipopPrice * countLollipop, lollipopWeight * countLollipop)
-                //new Caramel(caramelNeme, countCaramel, 3.7,5),
-                //new Marmalade(marmeladeName, countMarmelade,2.2, 15),
-                //new Lollipop(lollipopName, 1.3,2)
+        Sweet[] present = {new Lollipop(lollipopName, countLollipop, lollipopPrice * countLollipop, lollipopWeight * countLollipop),
+                new Caramel(caramelNeme, countCaramel, caremelPrice * countCaramel, caremelWeight * countCaramel),
+                new Marmalade(marmeladeName, countMarmelade,marmeladePrice * countMarmelade, marmeladeWeight * countMarmelade)
         };
+
+
+//        Caramel Caramel1 = new Caramel( "АО", 1, 2, 3 );
+
+
+
+
+
 
         double totalWeight = 0;
         double totalPrice = 0;
@@ -111,6 +90,7 @@ public class Main {
         System.out.println("Общий вес: " + totalWeight);
         System.out.println("Общая цена " + totalPrice);
 
-        
+
+
     }
 }

@@ -1,5 +1,7 @@
 package GiftBox;
 
+import java.io.IOException;
+
 public class Sweet {
 
     String name;
@@ -49,7 +51,13 @@ public class Sweet {
 
     @Override
     public String toString() {
-        String uniq;
-        return this.name + " " + this.count + " Шт.," + " Цена: " + this.price + ", Вес: " + this.weight;
+//        try {
+
+            return this.name + " " + this.count + " Шт.," + " Цена: " + this.price + ", Вес: " + this.weight;
+//        } catch ( IOException ex ){
+//            if (!this.name.equals( "Карамель" ) || !this.name.equals( "Леденец" ) || !this.name.equals( "Ьармелад" ))
+//                System.out.println("Ошибка");
+//        }
+//    return toString();
     }
 }
