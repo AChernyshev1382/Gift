@@ -7,7 +7,7 @@ public class Sweet {
     double weight;
     Integer count;
 
-    public Sweet(String name, double price, double weight, Integer count) {
+    public Sweet(String name, Integer count, double price, double weight) {
         this.name = name;
         this.price = price;
         this.weight = weight;
@@ -50,6 +50,6 @@ public class Sweet {
     @Override
     public String toString() {
         String uniq;
-        return this.name + " " + this.count + " " + "Цена: " + this.price + " " + "Вес: " + this.weight;
+        return this.name + " " + this.count + " Шт.," + " Цена: " + this.price + ", Вес: " + this.weight;
     }
 }
