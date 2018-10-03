@@ -1,12 +1,19 @@
 package GiftBox;
 
+import org.omg.CORBA.DynAnyPackage.Invalid;
+
 import java.util.*;
 
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main (String[] args) {
+
 
         Scanner scanner = new Scanner(System.in);
+
+
+
+        String lollipopName = null;
 
 
 
@@ -23,17 +30,40 @@ public class Main {
 
 
 
+
         System.out.println("Введите наименование сладости");
 
 
-            System.out.println("Первая сладость:");
-            String lollipopName = scanner.next();
-            System.out.println("Количество:");
-            Integer countLollipop = scanner.nextInt();
-            System.out.println("Укажите цену:");
-            Double lollipopPrice = scanner.nextDouble();
-            System.out.println("Укажаите вес:");
-            Double lollipopWeight = scanner.nextDouble();
+        System.out.println( "Первая сладость:" );
+
+        try{
+        lollipopName = scanner.next();
+
+        }catch (Exception e){
+
+            if (!lollipopName.equals( "Леденец" )) {
+                    System.out.println("wqerqwerqwer");
+           }
+        }
+
+        System.out.println( "Количество:" );
+        Integer countLollipop = scanner.nextInt();
+        System.out.println( "Укажите цену:" );
+        Double lollipopPrice = scanner.nextDouble();
+        System.out.println( "Укажаите вес:" );
+        Double lollipopWeight = scanner.nextDouble();
+
+
+
+
+//        }catch (Throwable throwable){
+//
+//            String lol = lollipopName;;
+//            if (lol.equals( "Леденец" )){
+//                if (false)
+//                    System.out.println("Error");
+//            }
+//        }
 
 
 //
@@ -81,6 +111,6 @@ public class Main {
         System.out.println("Общий вес: " + totalWeight);
         System.out.println("Общая цена " + totalPrice);
 
-
+        
     }
 }
