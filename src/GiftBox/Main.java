@@ -10,10 +10,12 @@ public class Main {
         Scanner scanner = new Scanner ( System.in );
 
 
-        System.out.println ( "Выберете сладость из списка:" );
-        System.out.println("Леденец");
-        System.out.println("Карамель");
-        System.out.println("Мармелад");
+        System.out.println("Выберете сладость из списка:");
+        System.out.println("============================");
+        System.out.println("|Леденец                   |");
+        System.out.println("|Карамель                  |");
+        System.out.println("|Мармелад                  |");
+        System.out.println("============================");
 
 
         System.out.println ( "Первая сладость:" );
@@ -28,7 +30,7 @@ public class Main {
 
 
         System.out.println ( "Вторая сладость:" );
-        String caramelNeme = scanner.next ();
+        String caramelName = scanner.next ();
         System.out.println ( "Количество:" );
         Integer countCaramel = scanner.nextInt ();
         System.out.println ( "Укажите цену:" );
@@ -56,7 +58,7 @@ public class Main {
 
         ArrayList<Sweet> present = new ArrayList <> ();
         present.add ( new Lollipop ( lollipopName, countLollipop, lollipopPrice * countLollipop, lollipopWeight * countLollipop ) );
-        present.add ( new Caramel ( caramelNeme, countCaramel, caremelPrice * countCaramel, caremelWeight * countCaramel ) );
+        present.add ( new Caramel ( caramelName, countCaramel, caremelPrice * countCaramel, caremelWeight * countCaramel ) );
         present.add ( new Marmalade ( marmeladeName, countMarmelade, marmeladePrice * countMarmelade, marmeladeWeight * countMarmelade ) );
 
 
@@ -83,52 +85,41 @@ public class Main {
         System.out.println("Общая цена " + totalPrice);
 
 
-        System.out.println("--------------------------------------------");
+        System.out.println("=============================================");
 
 
-        System.out.println ( "Добавить сладость?" + "Да/Нет");
+        System.out.println ( "Изменить количетво сладостей?");
+        System.out.println ("        Да/Нет                ");
+        System.out.println ("----------------------------- ");
         String sweetAdd = scanner.next();
         if (sweetAdd.equals("Да")) {
-            System.out.println( "Укажите сладость:" );
-            String lollipopName1 = scanner.next();
-            String caramelNeme1 = scanner.next();
-            String marmeladeName1 = scanner.next();
+            System.out.println( "Укажите сладость из списка:" );
+            System.out.println("-----------------------------");
+            System.out.println("|" + present.get( 0 ).name + "|");
+            System.out.println("|" + present.get( 1 ).name + "|");
+            System.out.println("|" + present.get( 2 ).name + "|");
+            System.out.println("-----------------------------");
+            String sweetName = scanner.next();
 
-            if (lollipopName1.equals( present.get( 1 ).name )) {
+
+            if (sweetName.equals( present.get( 0 ).name )) {
                 System.out.println( "Количество:" );
                 Integer countLollipop1 = scanner.nextInt();
-                present.get( 1 ).setCount( countLollipop + countLollipop1 );
-            }
-            if (caramelNeme1.equals( present.get( 2 ).name )){
+                present.get( 0 ).setCount( countLollipop + countLollipop1 );
+            } else if (sweetName.equals( present.get( 1 ).name )) {
+                System.out.println( "Количество:" );
                 Integer countCaramel1 = scanner.nextInt();
-                present.get( 2 ).setCount( countCaramel + countCaramel1 );
-            }
-            if (marmeladeName1.equals( present.get( 3 ).name )){
+                present.get( 1 ).setCount( countCaramel + countCaramel1 );
+            } else if (sweetName.equals( present.get( 2 ).name )) {
+                System.out.println( "Количество:" );
                 Integer countMarmelade1 = scanner.nextInt();
-                present.get( 3 ).setCount( countMarmelade + countMarmelade1 );
-            }
-            else
+                present.get( 2 ).setCount( countMarmelade + countMarmelade1 );
+            } else {
                 System.out.println();
-            System.out.println( "Сладость " + lollipopName1 + " не найдена" );
-            System.out.println();
-        }
-        else {
-
-            System.out.println( "Формирование падарка завершено:" );
-
-            for (int i = 0; i < present.size(); i++) {
-
-                System.out.println( present.get( i ).toString() );
-
-                totalPrice += present.get( i ).getPrice();
-                totalWeight += present.get( i ).getWeight();
-
+                System.out.println( "Сладость " + sweetName + " не найдена" );
+                System.out.println();
             }
-
-            System.out.println( "Общий вес: " + totalWeight );
-            System.out.println( "Общая цена " + totalPrice );
         }
-
         System.out.println( "Формирование падарка завершено:" );
 
         for (int i = 0; i < present.size(); i++) {

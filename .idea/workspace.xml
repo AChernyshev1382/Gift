@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62bd3e8e-79e2-4384-ae49-6c666e375cc0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GiftBox/Lollipop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GiftBox/Lollipop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GiftBox/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GiftBox/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,14 +34,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5443" />
-          <entry key="txt" value="105" />
+          <entry key="java" value="6047" />
+          <entry key="txt" value="128" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5443" />
-          <entry key="PLAIN_TEXT" value="105" />
+          <entry key="JAVA" value="6047" />
+          <entry key="PLAIN_TEXT" value="128" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -61,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GiftBox/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="905">
-              <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
+            <state relative-caret-position="1094">
+              <caret line="100" column="64" lean-forward="true" selection-start-line="100" selection-start-column="64" selection-end-line="100" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -384,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538588030043</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update class Main">
+      <created>1538663605811</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1538663605811</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -412,7 +417,7 @@
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5010661" side_tool="true" weight="0.32847425" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" sideWeight="0.4989339" weight="0.32944608" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.27210885" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.25364432" />
       <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.85287845" weight="0.39941692" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -437,7 +442,8 @@
     <MESSAGE value="add collection" />
     <MESSAGE value="update swets list" />
     <MESSAGE value="Collection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collection" />
+    <MESSAGE value="update class Main" />
+    <option name="LAST_COMMIT_MESSAGE" value="update class Main" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -512,8 +518,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GiftBox/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="905">
-          <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
+        <state relative-caret-position="1094">
+          <caret line="100" column="64" lean-forward="true" selection-start-line="100" selection-start-column="64" selection-end-line="100" selection-end-column="64" />
         </state>
       </provider>
     </entry>
