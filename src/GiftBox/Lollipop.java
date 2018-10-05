@@ -1,7 +1,10 @@
 package GiftBox;
 
 public class Lollipop extends Sweet {
-    public Lollipop(String name, double price, double weight) {
-        super(name, price, weight);
+
+
+    public Lollipop(String name, Integer count, double price, Double weight) {
+        super(name, count, price, weight);
     }
+    
 }
