@@ -55,7 +55,7 @@ public class Sweet {
 
             return this.name + " " + this.count + " Шт.," + " Цена: " + this.price + ", Вес: " + this.weight;
 //        } catch ( IOException ex ){
-//            if (!this.name.equals( "Карамель" ) || !this.name.equals( "Леденец" ) || !this.name.equals( "Ьармелад" ))
+//            if (!this.name.equals( "Карамель" ) || !this.name.equals( "Леденец" ) || !this.name.equals( "Мармелад" ))
 //                System.out.println("Ошибка");
 //        }
 //    return toString();
