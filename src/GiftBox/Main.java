@@ -21,6 +21,7 @@ public class Main {
         System.out.println ( "Первая сладость:" );
 
         String lollipopName = scanner.next ();
+        String lollipopColor = "Красный";
         System.out.println ( "Количество:" );
         Integer countLollipop = scanner.nextInt ();
         System.out.println ( "Укажите цену:" );
@@ -31,6 +32,7 @@ public class Main {
 
         System.out.println ( "Вторая сладость:" );
         String caramelName = scanner.next ();
+        String caramelFilling = "Вишня";
         System.out.println ( "Количество:" );
         Integer countCaramel = scanner.nextInt ();
         System.out.println ( "Укажите цену:" );
@@ -41,6 +43,7 @@ public class Main {
 
         System.out.println ( "Третья сладость:" );
         String marmeladeName = scanner.next ();
+        String marmeladeTaste = "Яблочный";
         System.out.println ( "Количество:" );
         Integer countMarmelade = scanner.nextInt ();
         System.out.println ( "Укажите цену:" );
@@ -57,9 +60,9 @@ public class Main {
 
 
         ArrayList<Sweet> present = new ArrayList <> ();
-        present.add ( new Lollipop ( lollipopName, countLollipop, lollipopPrice * countLollipop, lollipopWeight * countLollipop ) );
-        present.add ( new Caramel ( caramelName, countCaramel, caremelPrice * countCaramel, caremelWeight * countCaramel ) );
-        present.add ( new Marmalade ( marmeladeName, countMarmelade, marmeladePrice * countMarmelade, marmeladeWeight * countMarmelade ) );
+        present.add ( new Lollipop ( lollipopName, lollipopColor, countLollipop, lollipopPrice * countLollipop, lollipopWeight * countLollipop ) );
+        present.add ( new Caramel ( caramelName, caramelFilling, countCaramel, caremelPrice * countCaramel, caremelWeight * countCaramel ) );
+        present.add ( new Marmalade ( marmeladeName, marmeladeTaste, countMarmelade, marmeladePrice * countMarmelade, marmeladeWeight * countMarmelade ) );
 
 
 
