@@ -20,36 +20,36 @@ public class Main {
 
         System.out.println ( "Первая сладость:" );
 
-        String lollipopName = scanner.next ();
+        String lollipopName = "Леденец";
         String lollipopColor = "Красный";
         System.out.println ( "Количество:" );
         Integer countLollipop = scanner.nextInt ();
         System.out.println ( "Укажите цену:" );
-        Double lollipopPrice = scanner.nextDouble ();
+        Double lollipopPrice = 1.1;
         System.out.println ( "Укажаите вес:" );
-        Double lollipopWeight = scanner.nextDouble ();
+        Double lollipopWeight = 1.2;
 
 
         System.out.println ( "Вторая сладость:" );
-        String caramelName = scanner.next ();
+        String caramelName = "Карамель";
         String caramelFilling = "Вишня";
         System.out.println ( "Количество:" );
         Integer countCaramel = scanner.nextInt ();
         System.out.println ( "Укажите цену:" );
-        Double caremelPrice = scanner.nextDouble ();
+        Double caremelPrice = 2.2;
         System.out.println ( "Укажаите вес:" );
-        Double caremelWeight = scanner.nextDouble ();
+        Double caremelWeight = 2.3;
 
 
         System.out.println ( "Третья сладость:" );
-        String marmeladeName = scanner.next ();
+        String marmeladeName = "Мармелад";
         String marmeladeTaste = "Яблочный";
         System.out.println ( "Количество:" );
         Integer countMarmelade = scanner.nextInt ();
         System.out.println ( "Укажите цену:" );
-        Double marmeladePrice = scanner.nextDouble ();
+        Double marmeladePrice = 3.3;
         System.out.println ( "Укажаите вес:" );
-        Double marmeladeWeight = scanner.nextDouble ();
+        Double marmeladeWeight = 3.4;
 
 
 //        Map <String, Integer> sweets = new TreeMap<>();
@@ -109,10 +109,17 @@ public class Main {
             String sweetName = scanner.next();
 
 
-            if (sweetName.equals( present.get( 0 ).name )) {
+
+            if(present.stream().anyMatch(f -> f.getName().equals(lollipopName))){
                 System.out.println( "Количество:" );
-                Integer countLollipop1 = scanner.nextInt();
-                present.get( 0 ).setCount( countLollipop + countLollipop1 );
+                Integer newCountLollipop = scanner.nextInt();
+                present.get( 0 ).setCount( countLollipop + newCountLollipop );
+
+
+//            if (sweetName.equals( present.get( 0 ).name )) {
+//                System.out.println( "Количество:" );
+//                Integer countLollipop1 = scanner.nextInt();
+//                present.get( 0 ).setCount( countLollipop + countLollipop1 );
             } else if (sweetName.equals( present.get( 1 ).name )) {
                 System.out.println( "Количество:" );
                 Integer countCaramel1 = scanner.nextInt();
