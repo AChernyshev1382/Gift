@@ -65,6 +65,10 @@ public class Main {
 
 
 
+
+
+
+
         double totalWeight = 0;
         double totalPrice = 0;
 
@@ -124,15 +128,18 @@ public class Main {
 
         for (int i = 0; i < present.size(); i++) {
 
-            System.out.println( present.get( i ).toString() );
+//            System.out.println( present.get( i ).toString() );
 
             totalPrice += present.get( i ).getPrice();
             totalWeight += present.get( i ).getWeight();
 
         }
 
+        present.stream().sorted((a,b) -> b.name.compareTo(a.name)).forEach(System.out::println); //сортировка по имени
+
+//        present.stream().sorted((a,b) -> b.count.compareTo(a.count)).forEach(System.out::println); //сортировка по количеству
+
         System.out.println( "Общий вес: " + totalWeight );
         System.out.println( "Общая цена " + totalPrice );
-
     }
 }
