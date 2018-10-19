@@ -5,6 +5,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.Collections;
 
 public class DBConnector{
 
@@ -13,22 +14,6 @@ public class DBConnector{
 //    private static final String DB_USER="trainee";
 //    private static final String DB_PASSWORD="123456";
 
-
-//    private static void initConnectionPostgre(){
-//
-//
-//        try{
-//            Class.forName("org.postgresql.Driver");
-//        }catch(ClassNotFoundException e){
-//            System.out.println("Where is your postgresql JDBC Driver?");
-//            e.printStackTrace();
-//            return;
-////            Connection connection = DriverManager.getConnection();
-////                    //("jdbc:postgresql://"+ "s-msk-t-ver-db1" + ":" + "5432" + "/testdb", "trainee", "123456");
-////        } catch (Exception e) {
-////            throw new RuntimeException(e.getMessage());
-//        }
-//   }
 
     private static Connection getDBConnection(){
         Connection dbConnection=null;
@@ -48,18 +33,55 @@ public class DBConnector{
         return dbConnection;
     }
 
-    static void createDbUserTable() throws SQLException{
+
+    static void dropeDbPersonTable() throws SQLException {
+
         Connection dbConnection=null;
         Statement statement=null;
 
-        String createTableSQL="CREATE TABLE PERSON_TEST("+"PERSON_CODE  VARCHAR(3) NOT NULL,"+"FIRST_NAME VARCHAR(15) NOT NULL, "+"LAST_NAME VARCHAR(20) NOT NULL, "+"HIREDATE DATE, "+"PRIMARY KEY (PERSON_CODE) "+")";
+        String dropTablePerson = "DROP TABLE PERSON_TEST";
 
         try{
             dbConnection=getDBConnection();
             statement=dbConnection.createStatement();
 
-            // выполнить SQL запрос
-            statement.execute(createTableSQL);
+            //Удаляем таблицу PERSON_TEST
+            statement.execute("DROP TABLE PERSON_TEST");
+            System.out.println("Table \"PERSON_TEST\" was dropped");
+        } catch(SQLException e){
+            System.out.println(e.getMessage());
+        } finally{
+            if(statement!=null){
+                statement.close();
+            }
+            if(dbConnection!=null){
+                dbConnection.close();
+            }
+        }
+
+    }
+
+
+
+    static void createDbPersonTable() throws SQLException{
+
+        Connection dbConnection=null;
+        Statement statement=null;
+
+        String createTablePerson="CREATE OR TABLE PERSON_TEST("
+                +"PERSON_CODE  VARCHAR(3) NOT NULL,"
+                +"FIRST_NAME VARCHAR(15) NOT NULL, "
+                +"LAST_NAME VARCHAR(20) NOT NULL, "
+                +"HIREDATE DATE, "
+                +"PRIMARY KEY (PERSON_CODE) "
+                +")";
+
+        try{
+            dbConnection=getDBConnection();
+            statement=dbConnection.createStatement();
+
+            // создаем таблицу PERSON_TEST
+            statement.execute(createTablePerson);
             System.out.println("Table \"PERSON_TEST\" is created!");
         } catch(SQLException e){
             System.out.println(e.getMessage());
