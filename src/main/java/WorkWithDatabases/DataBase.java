@@ -3,8 +3,9 @@ package WorkWithDatabases;
 
 import java.sql.SQLException;
 
-import static WorkWithDatabases.DBConnector.createDbPersonTable;
-import static WorkWithDatabases.DBConnector.dropDbPersonTable;
+import static WorkWithDatabases.DBConnector.createDbTable;
+import static WorkWithDatabases.DBConnector.dropDbTable;
+import static WorkWithDatabases.DBConnector.alterTable;
 
 
 public class DataBase{
@@ -12,13 +13,19 @@ public class DataBase{
 
 
         try{
-            dropDbPersonTable();
+            dropDbTable();
         }catch(SQLException e){
             System.out.println(e.getMessage());
         }
 
         try{
-            createDbPersonTable();
+            createDbTable();
+        }catch(SQLException e){
+            System.out.println(e.getMessage());
+        }
+
+        try{
+            alterTable();
         }catch(SQLException e){
             System.out.println(e.getMessage());
         }

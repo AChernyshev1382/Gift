@@ -4,6 +4,7 @@
     <list default="true" id="62bd3e8e-79e2-4384-ae49-6c666e375cc0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WorkWithDatabases/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WorkWithDatabases/DBConnector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WorkWithDatabases/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WorkWithDatabases/DataBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,15 +47,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="11542" />
-          <entry key="txt" value="294" />
+          <entry key="java" value="11939" />
+          <entry key="txt" value="311" />
           <entry key="xml" value="224" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11542" />
-          <entry key="PLAIN_TEXT" value="294" />
+          <entry key="JAVA" value="11939" />
+          <entry key="PLAIN_TEXT" value="311" />
           <entry key="XML" value="224" />
         </counts>
       </usages-collector>
@@ -74,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/WorkWithDatabases/DataBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="578">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/WorkWithDatabases/DBConnector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+            <state relative-caret-position="487">
+              <caret line="107" column="10" selection-start-line="107" selection-start-column="10" selection-end-line="107" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,8 +136,8 @@
         <option value="$PROJECT_DIR$/src/main/java/newLess/TextFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/newLess/FileClass.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/WorkWithDatabases/DataBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/WorkWithDatabases/DBConnector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WorkWithDatabases/DataBase.java" />
       </list>
     </option>
   </component>
@@ -291,7 +292,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539941758589" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539949153988" />
     <property name="last_opened_file_path" value="C:/Repos/infra-env" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -542,7 +543,14 @@
       <option name="project" value="LOCAL" />
       <updated>1539936469140</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="update class &quot;DBConnector&quot;">
+      <created>1539941795973</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1539941795973</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -563,14 +571,14 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.5011848" side_tool="true" weight="0.20048702" />
-      <window_info content_ui="combo" x="150" y="202" width="300" height="868" id="Project" order="5" sideWeight="0.49881518" visible="true" weight="0.1337953" />
+      <window_info active="true" content_ui="combo" x="150" y="202" width="300" height="868" id="Project" order="5" sideWeight="0.49881518" visible="true" weight="0.1337953" />
       <window_info id="Structure" order="6" sideWeight="0.5011848" side_tool="true" weight="0.20048702" />
       <window_info anchor="bottom" id="Version Control" order="0" sideWeight="0.4991883" weight="0.32938388" />
       <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.19642857" weight="0.26895735" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5560065" side_tool="true" weight="0.32938388" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" sideWeight="0.4989339" weight="0.32942554" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.6098081" side_tool="true" visible="true" weight="0.13861386" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.6098081" side_tool="true" weight="0.33443344" />
       <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.39019188" weight="0.31023103" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -603,7 +611,8 @@
     <MESSAGE value="add new class" />
     <MESSAGE value="add new metod &quot;dropDbPersonTable&quot;" />
     <MESSAGE value="update metod &quot;dropDbPersonTable&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="update metod &quot;dropDbPersonTable&quot;" />
+    <MESSAGE value="update class &quot;DBConnector&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="update class &quot;DBConnector&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -841,8 +850,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/WorkWithDatabases/DBConnector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        <state relative-caret-position="487">
+          <caret line="107" column="10" selection-start-line="107" selection-start-column="10" selection-end-line="107" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -851,8 +860,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/WorkWithDatabases/DataBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="578">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
