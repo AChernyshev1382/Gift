@@ -46,8 +46,8 @@ public class DBConnector{
             statement=dbConnection.createStatement();
 
             //Удаляем таблицу PERSON_TEST
-            statement.execute("DROP TABLE PERSON_TEST");
-            System.out.println("Table \"PERSON_TEST\" was dropped");
+            statement.execute(dropTablePerson);
+            System.out.println("Table \"PERSON_TEST\" is dropped!");
         } catch(SQLException e){
             System.out.println(e.getMessage());
         } finally{
@@ -68,13 +68,15 @@ public class DBConnector{
         Connection dbConnection=null;
         Statement statement=null;
 
-        String createTablePerson="CREATE OR TABLE PERSON_TEST("
+        String createTablePerson="CREATE TABLE PERSON_TEST("
                 +"PERSON_CODE  VARCHAR(3) NOT NULL,"
                 +"FIRST_NAME VARCHAR(15) NOT NULL, "
                 +"LAST_NAME VARCHAR(20) NOT NULL, "
                 +"HIREDATE DATE, "
                 +"PRIMARY KEY (PERSON_CODE) "
                 +")";
+
+
 
         try{
             dbConnection=getDBConnection();

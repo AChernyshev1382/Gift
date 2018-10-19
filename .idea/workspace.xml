@@ -4,7 +4,6 @@
     <list default="true" id="62bd3e8e-79e2-4384-ae49-6c666e375cc0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WorkWithDatabases/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WorkWithDatabases/DBConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WorkWithDatabases/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WorkWithDatabases/DataBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,15 +46,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="11531" />
-          <entry key="txt" value="288" />
+          <entry key="java" value="11533" />
+          <entry key="txt" value="294" />
           <entry key="xml" value="224" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11531" />
-          <entry key="PLAIN_TEXT" value="288" />
+          <entry key="JAVA" value="11533" />
+          <entry key="PLAIN_TEXT" value="294" />
           <entry key="XML" value="224" />
         </counts>
       </usages-collector>
@@ -75,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/WorkWithDatabases/DataBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state relative-caret-position="1">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/WorkWithDatabases/DBConnector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="402">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,8 +135,8 @@
         <option value="$PROJECT_DIR$/src/main/java/newLess/TextFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/newLess/FileClass.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/WorkWithDatabases/DBConnector.java" />
         <option value="$PROJECT_DIR$/src/main/java/WorkWithDatabases/DataBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WorkWithDatabases/DBConnector.java" />
       </list>
     </option>
   </component>
@@ -292,7 +291,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539935929712" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539936450927" />
     <property name="last_opened_file_path" value="C:/Repos/infra-env" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -529,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1539935981145</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="update metod &quot;dropDbPersonTable&quot;">
+      <created>1539936020459</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1539936020459</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -550,15 +556,15 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.5011848" side_tool="true" weight="0.20048702" />
-      <window_info active="true" content_ui="combo" x="150" y="202" width="300" height="868" id="Project" order="5" sideWeight="0.49881518" visible="true" weight="0.1337953" />
+      <window_info content_ui="combo" x="150" y="202" width="300" height="868" id="Project" order="5" sideWeight="0.49881518" visible="true" weight="0.1337953" />
       <window_info id="Structure" order="6" sideWeight="0.5011848" side_tool="true" weight="0.20048702" />
       <window_info anchor="bottom" id="Version Control" order="0" sideWeight="0.4991883" weight="0.32938388" />
       <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.19642857" weight="0.26895735" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5560065" side_tool="true" weight="0.32938388" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" sideWeight="0.4989339" weight="0.32942554" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.6098081" side_tool="true" visible="true" weight="0.17271727" />
-      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.39019188" visible="true" weight="0.17271727" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.6098081" side_tool="true" visible="true" weight="0.31023103" />
+      <window_info active="true" anchor="bottom" id="Debug" order="6" sideWeight="0.39019188" visible="true" weight="0.31023103" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
@@ -589,7 +595,8 @@
     <MESSAGE value="udate FileClass" />
     <MESSAGE value="add new class" />
     <MESSAGE value="add new metod &quot;dropDbPersonTable&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new metod &quot;dropDbPersonTable&quot;" />
+    <MESSAGE value="update metod &quot;dropDbPersonTable&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="update metod &quot;dropDbPersonTable&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -599,6 +606,12 @@
           <line>19</line>
           <properties />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/WorkWithDatabases/DBConnector.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -827,8 +840,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/WorkWithDatabases/DBConnector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="402">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -837,8 +850,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/WorkWithDatabases/DataBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="1">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
