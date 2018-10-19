@@ -24,10 +24,4 @@ public class TextFile{
     public String getPass(){
         return pass;
     }
-
-    @Override
-    public String toString(){
-        return this.name + this.pass;
-
-    }
 }

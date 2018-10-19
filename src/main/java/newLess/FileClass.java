@@ -17,6 +17,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -29,14 +30,16 @@ public class FileClass{
 
         try{
             FileReader file=new FileReader("UserSettings.txt");
-
-
+//            ArrayList texDoc = new ArrayList();
 
             int i;
             while((i=file.read())!=-1){
+//                texDoc.add((char) i);
                 System.out.print((char) i);
                 //System.out.println(file.read());
             }
+
+//            System.out.println(texDoc);
 
         } catch(IOException ex){
             System.out.println(ex.getMessage());
