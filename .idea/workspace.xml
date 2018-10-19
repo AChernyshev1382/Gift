@@ -46,14 +46,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="11533" />
+          <entry key="java" value="11542" />
           <entry key="txt" value="294" />
           <entry key="xml" value="224" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11533" />
+          <entry key="JAVA" value="11542" />
           <entry key="PLAIN_TEXT" value="294" />
           <entry key="XML" value="224" />
         </counts>
@@ -74,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/WorkWithDatabases/DataBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="493">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/WorkWithDatabases/DBConnector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="153">
+              <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -291,7 +291,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539936450927" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539941758589" />
     <property name="last_opened_file_path" value="C:/Repos/infra-env" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -535,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1539936020459</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="update metod &quot;dropDbPersonTable&quot;">
+      <created>1539936469140</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1539936469140</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -563,8 +570,8 @@
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5560065" side_tool="true" weight="0.32938388" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" sideWeight="0.4989339" weight="0.32942554" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.6098081" side_tool="true" visible="true" weight="0.31023103" />
-      <window_info active="true" anchor="bottom" id="Debug" order="6" sideWeight="0.39019188" visible="true" weight="0.31023103" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.6098081" side_tool="true" visible="true" weight="0.13861386" />
+      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.39019188" weight="0.31023103" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
@@ -606,12 +613,6 @@
           <line>19</line>
           <properties />
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/WorkWithDatabases/DBConnector.java</url>
-          <line>76</line>
-          <properties />
-          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -840,8 +841,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/WorkWithDatabases/DBConnector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="153">
+          <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -850,8 +851,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/WorkWithDatabases/DataBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="493">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

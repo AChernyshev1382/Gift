@@ -5,27 +5,24 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.Collections;
 
 public class DBConnector{
 
-//    private static final String DB_DRIVER="org.postgresql.Driver";
-//    private static final String DB_CONNECTION="jdbc:postgresql://s-msk-t-ver-db1:5432/testdb";
-//    private static final String DB_USER="trainee";
-//    private static final String DB_PASSWORD="123456";
+    private static final String DB_DRIVER="org.postgresql.Driver";
+    private static final String DB_CONNECTION="jdbc:postgresql://s-msk-t-ver-db1:5432/testdb";
+    private static final String DB_USER="trainee";
+    private static final String DB_PASSWORD="123456";
 
 
     private static Connection getDBConnection(){
         Connection dbConnection=null;
         try{
-            Class.forName("org.postgresql.Driver");
-//            Class.forName(DB_DRIVER);
+            Class.forName(DB_DRIVER);
         } catch(ClassNotFoundException e){
             System.out.println(e.getMessage());
         }
         try{
-            dbConnection=DriverManager.getConnection("jdbc:postgresql://s-msk-t-ver-db1:5432/testdb", "trainee", "123456");
-//            dbConnection=getConnection(DB_CONNECTION, DB_USER, DB_PASSWORD);
+            dbConnection=DriverManager.getConnection(DB_CONNECTION, DB_USER, DB_PASSWORD);
             return dbConnection;
         } catch(SQLException e){
             System.out.println(e.getMessage());
