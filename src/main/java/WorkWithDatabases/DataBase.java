@@ -4,7 +4,7 @@ package WorkWithDatabases;
 import java.sql.SQLException;
 
 import static WorkWithDatabases.DBConnector.createDbPersonTable;
-import static WorkWithDatabases.DBConnector.dropeDbPersonTable;
+import static WorkWithDatabases.DBConnector.dropDbPersonTable;
 
 
 public class DataBase{
@@ -12,7 +12,7 @@ public class DataBase{
 
 
         try{
-            dropeDbPersonTable();
+            dropDbPersonTable();
         }catch(SQLException e){
             System.out.println(e.getMessage());
         }

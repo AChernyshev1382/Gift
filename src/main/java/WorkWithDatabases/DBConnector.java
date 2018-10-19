@@ -34,7 +34,7 @@ public class DBConnector{
     }
 
 
-    static void dropeDbPersonTable() throws SQLException {
+    static void dropDbPersonTable() throws SQLException {
 
         Connection dbConnection=null;
         Statement statement=null;
