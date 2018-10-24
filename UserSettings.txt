@@ -1,2 +1,4 @@
 UserName: FirstUser
 UserPass: FirstPassword
+
+CREATE TABLE person (person_code VARCHAR(3) NOT NULL, first_name VARCHAR(15) NOT NULL, last_name VARCHAR(20) NOT NULL, hiredate DATE,PRIMARY KEY (person_code));

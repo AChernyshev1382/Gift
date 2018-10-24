@@ -34,8 +34,9 @@ public class FileClass{
 
             int i;
             while((i=file.read())!=-1){
+                char text = ((char)i);
 //                texDoc.add((char) i);
-                System.out.print((char) i);
+                System.out.print(text);
                 //System.out.println(file.read());
             }
 
