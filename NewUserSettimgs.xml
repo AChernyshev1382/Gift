@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><userSettings>
+    <Setting>
+        <UserName>SecondName</UserName>
+        <UserPassword>SecondPassword</UserPassword>
+    </Setting>
+    <Setting>
+        <UserName>NewUserName</UserName>
+        <UserPassword>NewUserPass</UserPassword>
+    </Setting>
+<Setting><UserName>TestUser</UserName><UserPassword>TestPassword</UserPassword></Setting></userSettings>
