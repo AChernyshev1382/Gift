@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62bd3e8e-79e2-4384-ae49-6c666e375cc0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/junitHW/Main.java" afterDir="false" />
+    <list default="true" id="62bd3e8e-79e2-4384-ae49-6c666e375cc0" name="Default Changelist" comment="add package junitHW">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gift.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Gift.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webServices/Rest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,7 +32,7 @@
         <counts>
           <entry key="class" value="2" />
           <entry key="iml" value="4" />
-          <entry key="java" value="88" />
+          <entry key="java" value="89" />
           <entry key="patch" value="1" />
           <entry key="sql" value="2" />
           <entry key="txt" value="3" />
@@ -49,7 +43,7 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="4" />
-          <entry key="JAVA" value="88" />
+          <entry key="JAVA" value="89" />
           <entry key="PATCH" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="SQL" value="2" />
@@ -58,7 +52,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="13042" />
+          <entry key="java" value="13044" />
           <entry key="sql" value="153" />
           <entry key="txt" value="324" />
           <entry key="xml" value="237" />
@@ -66,7 +60,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13042" />
+          <entry key="JAVA" value="13044" />
           <entry key="PLAIN_TEXT" value="324" />
           <entry key="SQL" value="153" />
           <entry key="XML" value="237" />
@@ -89,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/junitHW/Calculated.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -97,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/junitHW/CalculationAreaCircle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="31" />
+            <state>
+              <caret selection-end-column="15" />
               <folding>
                 <element signature="e#103#104#0" expanded="true" />
                 <element signature="e#133#134#0" expanded="true" />
@@ -109,11 +103,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GiftBox/Caramel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/junitHW/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#300#0" expanded="true" />
               </folding>
@@ -121,7 +124,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CalculatedTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -189,8 +192,8 @@
         <option value="$PROJECT_DIR$/src/main/java/CalculationAreaCircle.java" />
         <option value="$PROJECT_DIR$/src/main/java/junitHW/Calculated.java" />
         <option value="$PROJECT_DIR$/src/main/java/junitHW/CalculationAreaCircle.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CalculatedTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/junitHW/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CalculatedTest.java" />
       </list>
     </option>
   </component>
@@ -310,23 +313,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="GiftBox" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gift" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gift" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="GiftBox" type="462c0819:PsiDirectoryNode" />
-              <item name="Caramel" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="Gift" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gift" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="junitHW" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -414,7 +400,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540461280252" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540461379745" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -663,7 +649,21 @@
       <option name="project" value="LOCAL" />
       <updated>1539949362747</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add package junitHW">
+      <created>1540461295267</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1540461295267</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add package junitHW">
+      <created>1540461368523</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1540461368523</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -697,7 +697,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -706,12 +705,12 @@
       <window_info id="Favorites" order="4" sideWeight="0.5011848" side_tool="true" weight="0.20048702" />
       <window_info content_ui="combo" x="150" y="202" width="300" height="868" id="Project" order="5" sideWeight="0.49881518" visible="true" weight="0.23560767" />
       <window_info id="Structure" order="6" sideWeight="0.5011848" side_tool="true" weight="0.20048702" />
-      <window_info anchor="bottom" id="Version Control" order="0" sideWeight="0.4991883" weight="0.32938388" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.19642857" weight="0.4618992" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="0" sideWeight="0.4991883" visible="true" weight="0.32847425" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.19642857" weight="0.4616132" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5117271" side_tool="true" weight="0.45578232" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" sideWeight="0.4989339" weight="0.32942554" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.7665245" side_tool="true" visible="true" weight="0.31584063" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.7665245" side_tool="true" weight="0.41690964" />
       <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.48827294" weight="0.2526725" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -721,7 +720,7 @@
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" x="704" y="201" width="407" height="853" id="Maven Projects" order="4" weight="0.33252427" />
+      <window_info anchor="right" x="704" y="201" width="407" height="853" id="Maven Projects" order="4" weight="0.33208954" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
@@ -746,7 +745,8 @@
     <MESSAGE value="update metod &quot;dropDbPersonTable&quot;" />
     <MESSAGE value="update class &quot;DBConnector&quot;" />
     <MESSAGE value="add method alterTable" />
-    <option name="LAST_COMMIT_MESSAGE" value="add method alterTable" />
+    <MESSAGE value="add package junitHW" />
+    <option name="LAST_COMMIT_MESSAGE" value="add package junitHW" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1011,13 +1011,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GiftBox/Caramel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="503">
@@ -1025,23 +1018,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/junitHW/CalculationAreaCircle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/junitHW/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#0#300#0" expanded="true" />
           </folding>
@@ -1051,7 +1031,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/junitHW/Calculated.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1064,6 +1044,26 @@
             <element signature="e#261#262#0" expanded="true" />
             <element signature="e#348#349#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/junitHW/CalculationAreaCircle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="15" />
+          <folding>
+            <element signature="e#103#104#0" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GiftBox/Caramel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
         </state>
       </provider>
     </entry>
