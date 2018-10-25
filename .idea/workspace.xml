@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62bd3e8e-79e2-4384-ae49-6c666e375cc0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/junitHW/CalculatePerimetrRectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/junitHW/CalculateAreaRectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/junitHW/CalculatePerimetrRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/junitHW/CalculatePerimetrRectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/junitHW/CalculatePerimetrTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/junitHW/CalculatePerimetrTriangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/junitHW/Calculated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/junitHW/Calculated.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/junitHW/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/junitHW/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CalculatedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculatedTest.java" afterDir="false" />
@@ -36,7 +38,7 @@
         <counts>
           <entry key="class" value="2" />
           <entry key="iml" value="4" />
-          <entry key="java" value="96" />
+          <entry key="java" value="98" />
           <entry key="patch" value="1" />
           <entry key="sql" value="2" />
           <entry key="txt" value="3" />
@@ -47,7 +49,7 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="4" />
-          <entry key="JAVA" value="96" />
+          <entry key="JAVA" value="98" />
           <entry key="PATCH" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="SQL" value="2" />
@@ -56,7 +58,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="13591" />
+          <entry key="java" value="13821" />
           <entry key="sql" value="153" />
           <entry key="txt" value="330" />
           <entry key="xml" value="237" />
@@ -64,7 +66,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13591" />
+          <entry key="JAVA" value="13821" />
           <entry key="PLAIN_TEXT" value="330" />
           <entry key="SQL" value="153" />
           <entry key="XML" value="237" />
@@ -86,8 +88,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/junitHW/Calculated.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/junitHW/CalculateAreaRectangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="35" />
+              <folding>
+                <element signature="e#135#136#0" expanded="true" />
+                <element signature="e#172#173#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,8 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/junitHW/CalculatePerimetrRectangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="34">
+              <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="39" />
               <folding>
                 <element signature="e#143#144#0" expanded="true" />
                 <element signature="e#180#181#0" expanded="true" />
@@ -108,23 +129,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/junitHW/CalculationAreaCircle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-              <folding>
-                <element signature="e#121#122#0" expanded="true" />
-                <element signature="e#152#153#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/junitHW/CalculatePerimetrTriangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#128#129#0" expanded="true" />
                 <element signature="e#159#160#0" expanded="true" />
@@ -138,17 +146,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/junitHW/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
+            <state relative-caret-position="136">
+              <caret line="8" column="91" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="91" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CalculatedTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="13" column="97" lean-forward="true" selection-start-line="13" selection-start-column="97" selection-end-line="13" selection-end-column="97" />
+            <state relative-caret-position="799">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#261#262#0" expanded="true" />
@@ -157,8 +165,10 @@
                 <element signature="e#617#618#0" expanded="true" />
                 <element signature="e#824#825#0" expanded="true" />
                 <element signature="e#868#869#0" expanded="true" />
-                <element signature="e#964#965#0" expanded="true" />
-                <element signature="e#991#992#0" expanded="true" />
+                <element signature="e#1101#1102#0" expanded="true" />
+                <element signature="e#1186#1187#0" expanded="true" />
+                <element signature="e#1238#1239#0" expanded="true" />
+                <element signature="e#1270#1271#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -219,9 +229,10 @@
         <option value="$PROJECT_DIR$/src/main/java/junitHW/CalculationCircleParam.java" />
         <option value="$PROJECT_DIR$/src/main/java/junitHW/CalculationAreaCircle.java" />
         <option value="$PROJECT_DIR$/src/main/java/junitHW/CalculationPerimetrCircle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/junitHW/CalculatePerimetrTriangle.java" />
         <option value="$PROJECT_DIR$/src/main/java/junitHW/Calculated.java" />
         <option value="$PROJECT_DIR$/src/main/java/junitHW/CalculatePerimetrRectangle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/junitHW/CalculatePerimetrTriangle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/junitHW/CalculateAreaRectangle.java" />
         <option value="$PROJECT_DIR$/src/main/java/junitHW/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/CalculatedTest.java" />
       </list>
@@ -352,6 +363,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="junitHW" type="462c0819:PsiDirectoryNode" />
+              <item name="CalculateAreaRectangle" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="Gift" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gift" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="junitHW" type="462c0819:PsiDirectoryNode" />
               <item name="Calculated" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
@@ -427,7 +447,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540469410172" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540470067014" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -451,7 +471,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatedTest.testPerimetrRectangle">
+  <component name="RunManager" selected="JUnit.CalculatedTest.testAreaRectangle">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="junitHW.Main" />
       <module name="Gift" />
@@ -473,11 +493,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatedTest.testAreaCircle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatedTest.testAreaRectangle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Gift" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CalculatedTest" />
-      <option name="METHOD_NAME" value="testAreaCircle" />
+      <option name="METHOD_NAME" value="testAreaRectangle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -504,19 +524,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CalculatedTest.testAreaCircle" />
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.CalculatedTest" />
       <item itemvalue="JUnit.CalculatedTest.testPerimetrTriangle" />
       <item itemvalue="JUnit.CalculatedTest.testPerimetrRectangle" />
+      <item itemvalue="JUnit.CalculatedTest.testAreaRectangle" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatedTest.testPerimetrRectangle" />
+        <item itemvalue="JUnit.CalculatedTest.testAreaRectangle" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.CalculatedTest" />
+        <item itemvalue="JUnit.CalculatedTest.testPerimetrRectangle" />
         <item itemvalue="JUnit.CalculatedTest.testPerimetrTriangle" />
-        <item itemvalue="JUnit.CalculatedTest.testAreaCircle" />
       </list>
     </recent_temporary>
   </component>
@@ -720,19 +740,17 @@
       <option name="project" value="LOCAL" />
       <updated>1540468814912</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="add class CalculatePerimetrRectangle">
+      <created>1540469465873</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1540469465873</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatedTest - 2018.10.25 at 12h 53m 59s.xml">
-      <configuration name="CalculatedTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatedTest - 2018.10.25 at 13h 56m 07s.xml">
-      <configuration name="CalculatedTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatedTest - 2018.10.25 at 14h 47m 06s.xml">
-      <configuration name="CalculatedTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CalculatedTest - 2018.10.25 at 14h 58m 30s.xml">
       <configuration name="CalculatedTest" configurationId="JUnit" />
     </history-entry>
@@ -753,6 +771,15 @@
     </history-entry>
     <history-entry file="CalculatedTest_testPerimetrRectangle - 2018.10.25 at 15h 08m 35s.xml">
       <configuration name="CalculatedTest.testPerimetrRectangle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatedTest - 2018.10.25 at 15h 14m 02s.xml">
+      <configuration name="CalculatedTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatedTest_testAreaRectangle - 2018.10.25 at 15h 20m 50s.xml">
+      <configuration name="CalculatedTest.testAreaRectangle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatedTest_testAreaRectangle - 2018.10.25 at 15h 21m 08s.xml">
+      <configuration name="CalculatedTest.testAreaRectangle" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView" selected-index="3">
@@ -817,7 +844,8 @@
     <MESSAGE value="add method alterTable" />
     <MESSAGE value="add package junitHW" />
     <MESSAGE value="add class CalculatePerimetrTriangle" />
-    <option name="LAST_COMMIT_MESSAGE" value="add class CalculatePerimetrTriangle" />
+    <MESSAGE value="add class CalculatePerimetrRectangle" />
+    <option name="LAST_COMMIT_MESSAGE" value="add class CalculatePerimetrRectangle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -907,7 +935,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/GiftBox/MyExeption.java" />
     <entry file="file://$PROJECT_DIR$/src/GiftBox/InsertErr.java" />
     <entry file="file://$PROJECT_DIR$/src/GiftBox/Err.java" />
     <entry file="file://$PROJECT_DIR$/src/GiftBox/goMenu.java" />
@@ -1105,34 +1132,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/junitHW/CalculationPerimetrCircle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="51">
           <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding>
-            <element signature="e#118#119#0" expanded="true" />
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/junitHW/CalculatePerimetrTriangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/junitHW/Calculated.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1147,10 +1148,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/junitHW/CalculatePerimetrRectangle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/junitHW/CalculatePerimetrTriangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/junitHW/Calculated.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/junitHW/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="91" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/junitHW/CalculatePerimetrRectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="39" />
           <folding>
             <element signature="e#143#144#0" expanded="true" />
             <element signature="e#180#181#0" expanded="true" />
@@ -1160,17 +1192,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/junitHW/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CalculatedTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="13" column="97" lean-forward="true" selection-start-line="13" selection-start-column="97" selection-end-line="13" selection-end-column="97" />
+        <state relative-caret-position="799">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#261#262#0" expanded="true" />
@@ -1179,8 +1204,23 @@
             <element signature="e#617#618#0" expanded="true" />
             <element signature="e#824#825#0" expanded="true" />
             <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#1101#1102#0" expanded="true" />
+            <element signature="e#1186#1187#0" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/junitHW/CalculateAreaRectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="35" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
           </folding>
         </state>
       </provider>

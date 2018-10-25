@@ -6,6 +6,6 @@ public class CalculatePerimetrRectangle extends Calculated{
     }
 
     public double getPerimetrRectangle(){
-        return ( sideA+sideB )*2;
+        return ( getSideA()+getSideB() )*2;
     }
 }

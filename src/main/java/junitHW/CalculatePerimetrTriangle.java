@@ -6,7 +6,7 @@ public class CalculatePerimetrTriangle extends Calculated{
     }
 
     public double getPerimetrTriangle(){
-        return sideA+sideB+sideC;
+        return getSideA()+getSideB()+getSideC();
     }
 
 }

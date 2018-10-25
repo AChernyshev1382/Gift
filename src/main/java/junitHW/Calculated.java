@@ -9,7 +9,6 @@ public abstract class Calculated{
     double radius;
 
     public Calculated(double radius){
-        this.length=length;
         this.radius=radius;
     }
 
