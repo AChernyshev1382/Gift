@@ -9,11 +9,14 @@ public abstract class Calculated{
     double radius;
 
     public Calculated(double radius){
+        this.length=length;
+        this.radius=radius;
+    }
+
+    public Calculated(double sideA, double sideB, double sideC){
         this.sideA=sideA;
         this.sideB=sideB;
         this.sideC=sideC;
-        this.length=length;
-        this.radius=radius;
     }
 
     public double getSideA(){
