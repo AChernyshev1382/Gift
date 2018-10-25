@@ -1,3 +1,4 @@
+import junitHW.CalculatePerimetrRectangle;
 import junitHW.CalculatePerimetrTriangle;
 import junitHW.CalculationAreaCircle;
 import junitHW.CalculationPerimetrCircle;
@@ -10,6 +11,7 @@ public class CalculatedTest{
     CalculationAreaCircle calculationAreaCircle=new CalculationAreaCircle( 2 );
     CalculationPerimetrCircle calculationPerimetrCircle=new CalculationPerimetrCircle( 2 );
     CalculatePerimetrTriangle calculatePerimetrTriangle = new CalculatePerimetrTriangle( 1,2,3 );
+    CalculatePerimetrRectangle calculatePerimetrRectangle= new CalculatePerimetrRectangle( 5,8 );
 
 
     @Test
@@ -25,5 +27,10 @@ public class CalculatedTest{
     @Test
     public void testPerimetrTriangle(){
         assertEquals( 6.0, calculatePerimetrTriangle.getPerimetrTriangle() );
+    }
+
+    @Test
+    public void testPerimetrRectangle(){
+        assertEquals(26.0, calculatePerimetrRectangle.getPerimetrRectangle());
     }
 }

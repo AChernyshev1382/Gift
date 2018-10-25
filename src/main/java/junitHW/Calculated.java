@@ -19,6 +19,11 @@ public abstract class Calculated{
         this.sideC=sideC;
     }
 
+    public Calculated(double sideA, double sideB){
+        this.sideA=sideA;
+        this.sideB=sideB;
+    }
+
     public double getSideA(){
         return sideA;
     }
