@@ -1,7 +1,7 @@
 package junitHW;
 
-public class CalculatePerimetrTriangle extends Calculated{
-    public CalculatePerimetrTriangle(double sideA, double sideB, double sideC){
+public class Triangle extends Calculated{
+    public Triangle(double sideA, double sideB, double sideC){
         super( sideA, sideB, sideC );
     }
 
@@ -17,4 +17,3 @@ public class CalculatePerimetrTriangle extends Calculated{
     }
 
 }
-

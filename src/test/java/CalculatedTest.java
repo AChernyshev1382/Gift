@@ -5,43 +5,49 @@ import static junit.framework.TestCase.assertEquals;
 
 
 public class CalculatedTest{
-    CalculationAreaCircle calculationAreaCircle=new CalculationAreaCircle( 2 );
-    CalculationPerimetrCircle calculationPerimetrCircle=new CalculationPerimetrCircle( 2 );
-    CalculatePerimetrTriangle calculatePerimetrTriangle = new CalculatePerimetrTriangle( 1,2,3 );
-    CalculatePerimetrRectangle calculatePerimetrRectangle= new CalculatePerimetrRectangle( 5,8 );
-    CalculateAreaRectangle calculateAreaRectangle = new CalculateAreaRectangle( 5,10 );
+    Circle circle = new Circle( 3 );
+    Triangle triangle = new Triangle( 3,4,5 );
+    Rectangle rectangle = new Rectangle( 5,8 );
 
-//площадь окружности
+
+    //Площадь окружности
     @Test
     public void testAreaCircle(){
-        assertEquals( 12.566370614359172, calculationAreaCircle.getAreaCircle() );
+        assertEquals( 28.274333882308138, circle.getAreaCircle() );
     }
 
 
-//длина окружности
+    //Длина окружности
     @Test
     public void testPerimCircle(){
-        assertEquals( 12.566370614359172, calculationPerimetrCircle.getPerimCircle() );
+        assertEquals( 18.84955592153876, circle.getPerimCircle() );
     }
 
 
-//Периметр треугодьника
+    //Площадь треугольника
+    @Test
+    public void testAreaTriangle(){
+        assertEquals( 6.0, triangle.getAreaTriangle() );
+    }
+
+
+    //Периметр треугодьника
     @Test
     public void testPerimetrTriangle(){
-        assertEquals( 6.0, calculatePerimetrTriangle.getPerimetrTriangle() );
+        assertEquals( 12.0, triangle.getPerimetrTriangle() );
     }
 
-
-//Периметр прямоугольника
-    @Test
-    public void testPerimetrRectangle(){
-        assertEquals(26.0, calculatePerimetrRectangle.getPerimetrRectangle());
-    }
-
-
-//площадь прямоугольника
+    //Площадь прямоугольника
     @Test
     public void testAreaRectangle(){
-        assertEquals( 50.0, calculateAreaRectangle.getAreaRectangle());
+        assertEquals( 40.0, rectangle.getAreaRectangle());
     }
+
+
+    //Периметр прямоугольника
+    @Test
+    public void testPerimetrRectangle(){
+        assertEquals(26.0, rectangle.getPerimetrRectangle());
+    }
+
 }

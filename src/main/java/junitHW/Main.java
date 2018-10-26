@@ -2,20 +2,18 @@ package junitHW;
 
 public class Main{
     public static void main(String[] args){
-        CalculationAreaCircle calculationAreaCircle = new CalculationAreaCircle( 3 );
-        CalculationPerimetrCircle calculationPerimetrCircle = new CalculationPerimetrCircle( 3 );
-        CalculatePerimetrTriangle calculatePerimetrTriangle = new CalculatePerimetrTriangle( 3,4,5 );
-        CalculatePerimetrRectangle calculatePerimetrRectangle = new CalculatePerimetrRectangle( 5,8 );
-        CalculateAreaRectangle calculateAreaRectangle = new CalculateAreaRectangle( 5,10 );
+        Circle circle = new Circle( 3 );
+        Triangle triangle = new Triangle( 3,4,5 );
+        Rectangle rectangle = new Rectangle( 5,8 );
 
 
         System.out.println(Math.PI);
-        System.out.println(calculationAreaCircle.getAreaCircle());
-        System.out.println(calculationPerimetrCircle.getPerimCircle());
-        System.out.println(calculatePerimetrTriangle.getPerimetrTriangle());
-        System.out.println(calculatePerimetrRectangle.getPerimetrRectangle());
-        System.out.println(calculateAreaRectangle.getAreaRectangle());
-        System.out.println(calculatePerimetrTriangle.getAreaTriangle());
+        System.out.println("Площадь круга: " + circle.getAreaCircle());
+        System.out.println("Длина окружности: " + circle.getPerimCircle());
+        System.out.println("Площадь тереугольника: " + triangle.getAreaTriangle());
+        System.out.println("Периметр треугольника: " + triangle.getPerimetrTriangle());
+        System.out.println("Площадь прямоугольника: " + rectangle.getAreaRectangle());
+        System.out.println("Периметр прямоугольника: " + rectangle.getPerimetrRectangle());
 
     }
 }
