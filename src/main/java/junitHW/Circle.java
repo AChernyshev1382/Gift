@@ -7,7 +7,7 @@ public class Circle extends Calculated{
 
     public double getAreaCircle(){
 
-        if(getRadius()<=0||getRadius()==0){
+        if(getRadius()<=0){
             throw new IllegalArgumentException( "Радиус не может быть меньше или равен нулю" );
         }
 
@@ -15,7 +15,7 @@ public class Circle extends Calculated{
     }
 
     public double getPerimCircle(){
-        if(getRadius()<=0||getRadius()==0){
+        if(getRadius()<=0){
             throw new IllegalArgumentException( "Радиус не может быть меньше или равен нулю" );
         }
 
