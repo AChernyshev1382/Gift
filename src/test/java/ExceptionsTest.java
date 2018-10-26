@@ -19,28 +19,28 @@ public class ExceptionsTest{
     }
 
     @Test(expected=IllegalArgumentException.class)
-    public void testExettionPerimCircle(){
+    public void testExceptionPerimCircle(){
         assertEquals( 28.274333882308138, circle.getPerimCircle() );
     }
 
     @Test(expected=IllegalArgumentException.class)
-    public void testExettionAreaTriangle(){
+    public void testExceptionAreaTriangle(){
         assertEquals( 6.0, triangle.getAreaTriangle() );
 
     }
 
     @Test(expected=IllegalArgumentException.class)
-    public void testExettionPerimTriangle(){
+    public void testExceptionPerimTriangle(){
         assertEquals( 12.0, triangle.getPerimetrTriangle());
     }
 
     @Test(expected=IllegalArgumentException.class)
-    public void testExettionAreaRectangle(){
+    public void testExceptionAreaRectangle(){
         assertEquals( 40.0, rectangle.getAreaRectangle());
     }
 
     @Test(expected=IllegalArgumentException.class)
-    public void testExettionPerimRectangle(){
+    public void testExceptionPerimRectangle(){
         assertEquals( 26.0, rectangle.getPerimetrRectangle());
     }
 }
