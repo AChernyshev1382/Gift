@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="62bd3e8e-79e2-4384-ae49-6c666e375cc0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gift.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Gift.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GiftBox/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GiftBox/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GiftBox/Sweet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GiftBox/Sweet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,12 +25,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="28" />
+          <entry key="java" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="28" />
+          <entry key="JAVA" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -57,22 +58,81 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CalculatedTest.java">
+        <entry file="file://$PROJECT_DIR$/src/GiftBox/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="52" lean-forward="true" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+            <state relative-caret-position="486">
+              <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GiftBox/Menu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GiftBox/Marmalade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GiftBox/Lollipop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#135#136#0" expanded="true" />
+                <element signature="e#184#185#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/junitHW/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/GiftBox/Sweet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="68">
+              <caret line="4" column="6" selection-start-line="4" selection-end-line="4" selection-end-column="6" />
+              <folding>
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#577#578#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+                <element signature="e#726#727#0" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
+                <element signature="e#802#803#0" expanded="true" />
+                <element signature="e#846#847#0" expanded="true" />
+                <element signature="e#882#883#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GiftBox/Caramel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+              <folding>
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,32 +170,6 @@
       </list>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Gift" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Gift" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Gift" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Gift" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -168,6 +202,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,68 +214,80 @@
             <path>
               <item name="Gift" type="b2602c69:ProjectViewProjectNode" />
               <item name="Gift" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gift" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gift" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Gift" type="b2602c69:ProjectViewProjectNode" />
               <item name="Gift" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="GiftBox" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Gift" type="b2602c69:ProjectViewProjectNode" />
               <item name="Gift" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="GiftBox" type="462c0819:PsiDirectoryNode" />
+              <item name="Lollipop" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="Gift" type="b2602c69:ProjectViewProjectNode" />
               <item name="Gift" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="junitHW" type="462c0819:PsiDirectoryNode" />
+              <item name="GiftBox" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="Gift" type="b2602c69:ProjectViewProjectNode" />
               <item name="Gift" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="GiftBox" type="462c0819:PsiDirectoryNode" />
+              <item name="Marmalade" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="Gift" type="b2602c69:ProjectViewProjectNode" />
               <item name="Gift" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="GiftBox" type="462c0819:PsiDirectoryNode" />
+              <item name="Sweet" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="Gift" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gift" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="CalculatedTest" type="1a9f42e2:ClassTreeNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="Gift" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="Gift" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gift" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gift" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+              <item name="Stream" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540567066535" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538588795118" />
     <property name="last_opened_file_path" value="C:/Repos/infra-env" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
@@ -255,20 +303,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatedTest">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="junitHW.Main" />
-      <module name="Gift" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="junitHW.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GiftBox.Main" />
       <module name="Gift" />
@@ -295,24 +330,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Gift" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatedTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Menu" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="JUnit.CalculatedTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatedTest" />
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Menu" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Menu" />
         <item itemvalue="Application.Main" />
@@ -399,7 +424,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1010" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -407,11 +432,11 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32928804" />
-      <window_info content_ui="combo" x="150" y="202" width="300" height="868" id="Project" order="5" visible="true" weight="0.2435275" />
+      <window_info content_ui="combo" x="150" y="202" width="300" height="868" id="Project" order="5" visible="true" weight="0.17643923" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.19669509" weight="0.27113703" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5477346" side_tool="true" weight="0.101992965" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5010661" side_tool="true" weight="0.32847425" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" sideWeight="0.4989339" weight="0.32944608" />
       <window_info anchor="bottom" id="Run" order="5" sideWeight="0.5469083" side_tool="true" visible="true" weight="0.3819242" />
@@ -419,7 +444,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.45309168" weight="0.3819242" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.45309168" visible="true" weight="0.3819242" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -463,14 +488,74 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+          <folding>
+            <element signature="e#10065#10066#0" expanded="true" />
+            <element signature="e#10148#10149#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GiftBox/Caramel.java" />
-    <entry file="file://$PROJECT_DIR$/src/GiftBox/Marmalade.java" />
-    <entry file="file://$PROJECT_DIR$/src/GiftBox/Lollipop.java" />
-    <entry file="file://$PROJECT_DIR$/src/GiftBox/Menu.java" />
-    <entry file="file://$PROJECT_DIR$/src/GiftBox/Sweet.java" />
+    <entry file="file://$PROJECT_DIR$/src/GiftBox/Caramel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GiftBox/Marmalade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GiftBox/Lollipop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GiftBox/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GiftBox/Sweet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-end-line="4" selection-end-column="6" />
+          <folding>
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/stream/Stream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
@@ -478,21 +563,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GiftBox/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/junitHW/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/GiftBox/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CalculatedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="52" lean-forward="true" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="486">
+          <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
         </state>
       </provider>
     </entry>

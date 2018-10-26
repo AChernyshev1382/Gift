@@ -61,6 +61,7 @@
             <scope>compile</scope>
         </dependency>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -69,6 +70,8 @@
         </dependency>
 =======
 >>>>>>> Merge branch 'master' of C:\Gift with conflicts.
+=======
+>>>>>>> origin/master
     </dependencies>
 
 </project>
